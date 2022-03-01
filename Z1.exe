@@ -116,7 +116,8 @@ iter: {
  goto iter; 
  } 
  else { 
- int *mas = NULL, fl = 0; 
+ int* mas = NULL;
+ int fl = 0; 
  char z = 0; 
  unsigned size = 0; 
  ch = getchar(); 
@@ -254,7 +255,9 @@ while (ch != 10) {
 
  else { 
 
- int *mas1 = NULL, k = 0, sum = 0, r = 0, kk=0; 
+ int* mas1 = NULL;
+ 
+ int k = 0, sum = 0, r = 0, kk=0; 
 
  mas1 = malloc(size * sizeof(int)); 
 
